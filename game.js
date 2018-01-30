@@ -5,7 +5,7 @@ var choosenWord = wordList[randomWord];
 
 //console.log(choosenWord);
 
-exports.choosenWord = choosenWord;
+module.exports = choosenWord;
 
 
 
