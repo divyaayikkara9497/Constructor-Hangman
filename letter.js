@@ -10,7 +10,7 @@ var showLetter = function(word) {
 		} 
 
 	this.display = show.trim();
-	console.log(this.display);
+	console.log("letter:" + this.display);
 }
 }
 

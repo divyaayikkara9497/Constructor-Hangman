@@ -1,9 +1,15 @@
-//checking to see whether the letter is in the word
-var Game = require("./game.js")
-var Letter = require("./letter.js");
+// wasn't able to get this so used stackoverflow
 
-var checkWord = function() {
+function checkForLetter(letter, word){
+
+  // Check if the letter is in the word
+  if(word.indexOf(letter) != -1){
+    return true;
+  }
+  else{
+    return false;
+  }
 
 }
 
-module.exports = checkWord;
+module.exports = checkForLetter;
