@@ -1,6 +1,6 @@
 // wasn't able to get this so used stackoverflow
 
-function checkForLetter(letter, word){
+function checkLetter(letter, word){
 
   // Check if the letter is in the word
   if(word.indexOf(letter) != -1){
@@ -12,4 +12,4 @@ function checkForLetter(letter, word){
 
 }
 
-module.exports = checkForLetter;
+module.exports = checkLetter;
