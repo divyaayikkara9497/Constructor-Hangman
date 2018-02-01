@@ -1,6 +1,8 @@
-var showLetter = function(word) {
+
+
+var showLetter = function(word, guessWord) {
 	this.word = word;
-	//this.guessWord = guessWord;
+	this.guessWord = guessWord;
 	this.display = ""
 
 	this.displayWord = function() {
@@ -10,7 +12,7 @@ var showLetter = function(word) {
 		} 
 
 	this.display = show.trim();
-	console.log("letter:" + this.display);
+	console.log("Guess this word:" + this.display);
 }
 }
 
